@@ -4,6 +4,20 @@ A Line bot AI assistant integrated with LangChain, OpenAI API, DALL-E 3
 ## Overview
 ### Linebot Demo
 <img src="https://raw.githubusercontent.com/alan10607/dr-penguin/doc/pic/readme8.jpg" width="250"/>
+<style>
+  table {
+    width: 100%;
+  }
+  td:nth-child(1) {
+    width: 30%;
+  }
+  td:nth-child(2) {
+    width: 30%;
+  }
+  td:nth-child(3) {
+    width: 40%;
+  }
+</style>
 
 | Function | Description | Demo |
 |---|---|---|
