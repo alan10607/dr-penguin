@@ -4,30 +4,50 @@ A Line bot AI assistant integrated with LangChain, OpenAI API, DALL-E 3
 ## Overview
 ### Linebot Demo
 <img src="https://raw.githubusercontent.com/alan10607/dr-penguin/doc/pic/readme8.jpg" width="250"/>
-<style>
-  table {
-    width: 100%;
-  }
-  td:nth-child(1) {
-    width: 30%;
-  }
-  td:nth-child(2) {
-    width: 30%;
-  }
-  td:nth-child(3) {
-    width: 40%;
-  }
-</style>
-
-| Function | Description | Demo |
-|---|---|---|
-| Self Introduction | Assistant follows instructions to introduce itself | <img src="https://raw.githubusercontent.com/alan10607/dr-penguin/doc/pic/readme1.jpg" width="300"/> |
-| History Memory | Assistant remembers conversations and responds based on chat history | <img src="https://raw.githubusercontent.com/alan10607/dr-penguin/doc/pic/readme2.jpg" width="300"/> |
-| Tool - Google Search <br><br> *Use SerpAPI to google search current event or something unknown* | Google search to obtain accurate weather and perform calculations | <img src="https://raw.githubusercontent.com/alan10607/dr-penguin/doc/pic/readme3.jpg" width="300"/> |
-| | Inquire about good restaurants nearby | <img src="https://raw.githubusercontent.com/alan10607/dr-penguin/doc/pic/readme4.jpg" width="300"/> |
-| | Go further, inquire about restaurant ratings and review comments | <img src="https://raw.githubusercontent.com/alan10607/dr-penguin/doc/pic/readme7.jpg" width="300"/> |
-| Tool - Image Generator <br><br> *Use DALL-E 3 to generate requested images* | Generate Dr. Penguin's selfie | <img src="https://raw.githubusercontent.com/alan10607/dr-penguin/doc/pic/readme5.jpg" width="300"/> <br>Generated image: <img src="https://raw.githubusercontent.com/alan10607/dr-penguin/doc/pic/readme6.png" width="300"/> |
-
+<br><br>
+<table style="width:100%">
+  <tr>
+    <th width="30%">Function</th>
+    <th width="30%">Description</th>
+    <th width="40%">Demo</th>
+  </tr>
+  <tr>
+    <td>Self Introduction</td>
+    <td>Assistant follows instructions to introduce itself</td>
+    <td><img src="https://raw.githubusercontent.com/alan10607/dr-penguin/doc/pic/readme1.jpg" width="300"/></td>
+  </tr>
+  <tr>
+    <td>History Memory</td>
+    <td>Assistant remembers conversations and responds based on chat history</td>
+    <td><img src="https://raw.githubusercontent.com/alan10607/dr-penguin/doc/pic/readme2.jpg" width="300"/></td>
+  </tr>
+  <tr>
+    <td>Tool - Google Search
+        <br><br>
+        <em>Use SerpAPI to google search current event or something unknown</em>
+    </td>
+    <td>Google search to obtain accurate weather and perform calculations</td>
+    <td><img src="https://raw.githubusercontent.com/alan10607/dr-penguin/doc/pic/readme3.jpg" width="300"/></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>Inquire about good restaurants nearby</td>
+    <td><img src="https://raw.githubusercontent.com/alan10607/dr-penguin/doc/pic/readme4.jpg" width="300"/></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>Go further, inquire about restaurant ratings and review comments</td>
+    <td><img src="https://raw.githubusercontent.com/alan10607/dr-penguin/doc/pic/readme7.jpg" width="300"/></td>
+  </tr>
+  <tr>
+    <td>Tool - Image Generator
+        <br><br> 
+        <em>Use DALL-E 3 to generate requested images</em>
+    </td>
+    <td>Generate Dr. Penguin's selfie</td>
+    <td><img src="https://raw.githubusercontent.com/alan10607/dr-penguin/doc/pic/readme5.jpg" width="300"/><br>Generated image: <img src="https://raw.githubusercontent.com/alan10607/dr-penguin/doc/pic/readme6.png" width="300"/></td>
+  </tr>
+</table>
 
 
 ### OpenAI Assistants API Beta
