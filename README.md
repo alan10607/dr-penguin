@@ -2,6 +2,20 @@
 A Line bot AI assistant integrated with LangChain, OpenAI API, DALL-E 3
 
 ## Overview
+### Linebot Demo
+<img src="https://raw.githubusercontent.com/alan10607/dr-penguin/doc/pic/readme8.jpg" width="250"/>
+
+| Function | Description | Demo |
+|---|---|---|
+| Self Introduction | Assistant follows instructions to introduce itself | <img src="https://raw.githubusercontent.com/alan10607/dr-penguin/doc/pic/readme1.jpg" width="300"/> |
+| History Memory | Assistant remembers conversations and responds based on chat history | <img src="https://raw.githubusercontent.com/alan10607/dr-penguin/doc/pic/readme2.jpg" width="300"/> |
+| Tool - Google Search <br><br> *Use SerpAPI to google search current event or something unknown* | Google search to obtain accurate weather and perform calculations | <img src="https://raw.githubusercontent.com/alan10607/dr-penguin/doc/pic/readme3.jpg" width="300"/> |
+| | Inquire about good restaurants nearby | <img src="https://raw.githubusercontent.com/alan10607/dr-penguin/doc/pic/readme4.jpg" width="300"/> |
+| | Go further, inquire about restaurant ratings and review comments | <img src="https://raw.githubusercontent.com/alan10607/dr-penguin/doc/pic/readme7.jpg" width="300"/> |
+| Tool - Image Generator <br><br> *Use DALL-E 3 to generate requested images* | Generate Dr. Penguin's selfie | <img src="https://raw.githubusercontent.com/alan10607/dr-penguin/doc/pic/readme5.jpg" width="300"/> <br>Generated image: <img src="https://raw.githubusercontent.com/alan10607/dr-penguin/doc/pic/readme6.png" width="300"/> |
+
+
+
 ### OpenAI Assistants API Beta
 ```
 $python src/assistant.py 
